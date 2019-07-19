@@ -30,8 +30,6 @@ Example:
 - Create a folder with the raw T2w data
 - mkdir Structural
 - dhcp-pipeline.sh ID session AGE -T2 T2w.nii.gz -additional -d $PWD/Structural -t 20
-- ./generate-Parcellation.sh $PATH/sub-ID_ses-session_T2w_restore_brain.nii.gz $PATH/sub-ID_ses-session_brainmask_drawem.nii.gz $MCRIBPATH
--./generate-5TT.sh
 
 For the example of the dHCP in the abstract the process was a follows:
 
