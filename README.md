@@ -35,6 +35,8 @@ For the example of the dHCP in the abstract the process was a follows:
 
 - Create a folder and download everything from this repository and the raw T2w (defaced) for the subject CC00069XX12
 
+![Alt text](5TT.png?raw=true "Title")
+
 # Tricks
 The script generate-Parcellation.sh takes a lot of time, this is because the antsJointLabelFusion.sh by default runs in serial, but you can add the option -c to control for parallel computation. Same applies to the dHCP pipeline call, you can modify the number of cores with the -t option.
 
