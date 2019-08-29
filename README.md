@@ -20,7 +20,7 @@ The next step is to run the dHCP pipeline to the M-CRIB manually labelles subjec
 
 Put all the T2w of the M-CRIB processed with dHCP pipeline in a folder, with the brainmask_drawnem.nii.gz and the segmentations. Then run: 
 
-labelconvert ID_seg.nii.gz M-CRIB_labels_FreeSurfer_format.txt M-CRIB_labels_FreeSurfer_format_default.txt ID_seg_mrtrix.nii.gz 
+- labelconvert ID_seg.nii.gz M-CRIB_labels_FreeSurfer_format.txt M-CRIB_labels_FreeSurfer_format_default.txt ID_seg_mrtrix.nii.gz 
 For each subject
 
 Then you only need to download everything to the same folder and is ready to run.
